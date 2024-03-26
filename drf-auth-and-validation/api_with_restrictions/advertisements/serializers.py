@@ -47,5 +47,4 @@ class AdvertisementSerializer(serializers.ModelSerializer):
                 if count_status > 10:
                     print('превышено число открытых постов')
                     break
-            count_status -= 1
         return data
